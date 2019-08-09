@@ -1,0 +1,5 @@
+/config-v0.0.1/api/identity-service:
+  params:
+    - NULL_VALUE:
+        type: 'string'
+        nullable: true

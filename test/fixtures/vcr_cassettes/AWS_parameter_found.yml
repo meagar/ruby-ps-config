@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Name":"/config-v0.0.1/api/identity-service/IDENTITY_BASE_URL"}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParameter
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174235Z
+      X-Amz-Content-Sha256:
+      - 1d71036e4316f05c54de0a143d67078463d103158a2d01c3cfb36400028a3cc8
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=3fe94233c278bc23c593b908052a06e7e5a718377d231832757f04f27d7d8587
+      Content-Length:
+      - '64'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - dd00385f-6020-49a7-a17b-1d7631e0b803
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - '286'
+      Date:
+      - Tue, 13 Aug 2019 17:42:34 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Parameter":{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_BASE_URL","LastModifiedDate":1.546534947928E9,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_BASE_URL","Type":"String","Value":"https://sso.prodigygame.net","Version":4}}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 17:42:35 GMT
+recorded_with: VCR 5.0.0

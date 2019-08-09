@@ -1,0 +1,802 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/api/identity-service","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174230Z
+      X-Amz-Content-Sha256:
+      - 04b3d3dec1e91583e184b8a2afa65d8963cd206374639748f1e9ff0be114713f
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=cb089717e3d4f96bcefc76be05cd1b6c989e2086a92626d58511fba7dc2b398b
+      Content-Length:
+      - '68'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - b25f9126-4081-4d9d-b322-29219c59ea92
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 7184
+      Date:
+      - Tue, 13 Aug 2019 17:42:30 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAbpNZh2iP8A9dMuSVJhXgkRbSEpo008ssRgrD62awWQYAAAAAF1S9obDXof8qzooJlhedvyHvtejTeOq55igHnOmHE1yM7ClALA7z3UslfZeUXihDQyjwz+iYcpDT9BCtfIPK1k5nSOjhX852MDQhCd5tZAB9tYY9cTgp2NTdFjeUra+yXRrDiuw5K0hVnh6kbHzyuqrL91R5kZdfMhogbHUr1bPCXk62rWBNIBYKaqF68+zDVLgRMTAQOy0AbMhRV54tKruTe9XlVeVJtr4iyBugk/gnKjwSNzg4M1tfo9dxj4D/6tnqTgxs9pNxiXOQ+MLyJ8p7EKbO3j7a1KnVYSpPJI6Z/TyoK/GRKlfKiYhKn2hYHYR3MMDM8s6U7Ms2BLoyPd7VJjxWeQFo/IT3wrd0uvr8zs9r/T7JmVFVEl61kRnU6aB4nJABwjtHqQ9tvLXiccFOTfjpB2ypxtnICbxtl8duuTdA8wSStpDX1O+ERcJJkzjx/hGfjZO3zrSVps7lNz6jIYUXgLq+QdMgS9zM87jdMjJlckOZWkZ9fUjWQayHxEeO51nODJFcGzRMYYKGELlqHjLYGLLROV2674y5sV1EOZXm2IKnxHyx8ShAlrYv3gQmRp6e1UXswipW3R9W7b0bQdz7PS6tx4cEKPhNLVuxjMwMBOIObNozze+VmEJkR0ksR2EjK/bCBWZI8OMQ6Akw1qIu3smCIEUQ7MCYwYw7r9uuAHxmd8d4QZv8wxBikKL127HghjFGScxqJE1NHpWRcFR","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_AWS_PROFILE","LastModifiedDate":1547739047.949,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_AWS_PROFILE","Type":"String","Value":"***********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_CLEVER_CLIENT_ID","LastModifiedDate":1546448347.152,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_CLEVER_CLIENT_ID","Type":"SecureString","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_CLEVER_CLIENT_SECRET","LastModifiedDate":1546448378.752,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_CLEVER_CLIENT_SECRET","Type":"SecureString","Value":"****************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_DB_HOST","LastModifiedDate":1545256494.759,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_DB_HOST","Type":"String","Value":"*********************************************************","Version":5},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_DB_NAME","LastModifiedDate":1545251311.765,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_DB_NAME","Type":"String","Value":"***********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_SIGNING_PRIVATE_KEY","LastModifiedDate":1547578973.748,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_SIGNING_PRIVATE_KEY","Type":"SecureString","Value":"***************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n********************************\n*************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_STUDENT_PASSWORD_PEPPER","LastModifiedDate":1563384098.767,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_STUDENT_PASSWORD_PEPPER","Type":"String","Value":"********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_USER_EMAIL_HASH_PEPPER","LastModifiedDate":1545324563.779,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_USER_EMAIL_HASH_PEPPER","Type":"SecureString","Value":"****************************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/SYMMETRIC_ENCRYPTION_PRODUCTION_V1","LastModifiedDate":1545318366.133,"Name":"/config-v0.0.1/api/identity-service/SYMMETRIC_ENCRYPTION_PRODUCTION_V1","Type":"SecureString","Value":"****************************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/SYMMETRIC_ENCRYPTION_RELEASE_V1","LastModifiedDate":1545318340.722,"Name":"/config-v0.0.1/api/identity-service/SYMMETRIC_ENCRYPTION_RELEASE_V1","Type":"SecureString","Value":"****************************************************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:30 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/api/identity-service","NextToken":"AAEAAbpNZh2iP8A9dMuSVJhXgkRbSEpo008ssRgrD62awWQYAAAAAF1S9obDXof8qzooJlhedvyHvtejTeOq55igHnOmHE1yM7ClALA7z3UslfZeUXihDQyjwz+iYcpDT9BCtfIPK1k5nSOjhX852MDQhCd5tZAB9tYY9cTgp2NTdFjeUra+yXRrDiuw5K0hVnh6kbHzyuqrL91R5kZdfMhogbHUr1bPCXk62rWBNIBYKaqF68+zDVLgRMTAQOy0AbMhRV54tKruTe9XlVeVJtr4iyBugk/gnKjwSNzg4M1tfo9dxj4D/6tnqTgxs9pNxiXOQ+MLyJ8p7EKbO3j7a1KnVYSpPJI6Z/TyoK/GRKlfKiYhKn2hYHYR3MMDM8s6U7Ms2BLoyPd7VJjxWeQFo/IT3wrd0uvr8zs9r/T7JmVFVEl61kRnU6aB4nJABwjtHqQ9tvLXiccFOTfjpB2ypxtnICbxtl8duuTdA8wSStpDX1O+ERcJJkzjx/hGfjZO3zrSVps7lNz6jIYUXgLq+QdMgS9zM87jdMjJlckOZWkZ9fUjWQayHxEeO51nODJFcGzRMYYKGELlqHjLYGLLROV2674y5sV1EOZXm2IKnxHyx8ShAlrYv3gQmRp6e1UXswipW3R9W7b0bQdz7PS6tx4cEKPhNLVuxjMwMBOIObNozze+VmEJkR0ksR2EjK/bCBWZI8OMQ6Akw1qIu3smCIEUQ7MCYwYw7r9uuAHxmd8d4QZv8wxBikKL127HghjFGScxqJE1NHpWRcFR","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174230Z
+      X-Amz-Content-Sha256:
+      - a129895b02509853edaa73d13e4e5553fd4604ded7dec87f2bf5e39731e16ef5
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=4e9e25a01c371b350faa4555f573f4c038305cc584816a635b1375fe77ab9ad8
+      Content-Length:
+      - '867'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 539c578b-139c-4fdd-8fd7-44939ff612c1
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 5958
+      Date:
+      - Tue, 13 Aug 2019 17:42:30 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_BASE_URX","LastModifiedDate":1546534947.928,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_BASE_URX","Type":"String","Value":"***************************","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_CACHE_AUTH_TOKEN","LastModifiedDate":1565377304.613,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_CACHE_AUTH_TOKEN","Type":"SecureString","Value":"******************************************************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_DB_PASSWORD","LastModifiedDate":1545251365.878,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_DB_PASSWORD","Type":"SecureString","Value":"*******************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_DB_USER","LastModifiedDate":1545251355.016,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_DB_USER","Type":"SecureString","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_GOOGLE_CLIENT_ID","LastModifiedDate":1545328499.425,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_GOOGLE_CLIENT_ID","Type":"SecureString","Value":"************************************************************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_GOOGLE_CLIENT_SECRET","LastModifiedDate":1545331118.082,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_GOOGLE_CLIENT_SECRET","Type":"SecureString","Value":"************************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_OAUTH_DEBUGGING","LastModifiedDate":1547140992.868,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_OAUTH_DEBUGGING","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_SENTRY_DSN","LastModifiedDate":1564076338.516,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_SENTRY_DSN","Type":"String","Value":"**********************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/IDENTITY_SIGNING_PUBLIC_KEY","LastModifiedDate":1547579006.619,"Name":"/config-v0.0.1/api/identity-service/IDENTITY_SIGNING_PUBLIC_KEY","Type":"SecureString","Value":"***************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n********************************\n*************************","Version":3}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:31 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/modules/prodigy-api","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174231Z
+      X-Amz-Content-Sha256:
+      - b7a730a46632215d6d74656f320358ef3f08f3c2eb88b9caf80e33a53080fc65
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=dca0f51ff2b7968f100d5e59e7b31764a8417923410a5bb945f78822f1c57ffe
+      Content-Length:
+      - '67'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 045f15ce-fcea-4f8b-9955-9ebf39046ad1
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3379
+      Date:
+      - Tue, 13 Aug 2019 17:42:30 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAATGvqdHH91JMI4lg4IMimKJmIgXnVhC3oLWvZSkGuo/kAAAAAF1S9odac1ecLjEgbE9bqRa1nh2YtDwM4SmZe2KpvISaVHC7zwLcdqHwkxXb4ub3ogyth3hVTu2Oo33/REF/zrs1xw5SBpdaCRhN9r9xU4zbSZfPnKBRsfSOkQpzPDJ0iAKNel+BGiwkBsLzMNeN87efZuTNpGNyTf0qRljjEgYblhY9d3AVoU14mkIlPZ+lrW+Km2W2i8GiGn0Y1sMhK19qFnlr2LWr2KgiqKiHF0cCAZ9myflk4o7hOg4Hi51DIBKHI2Gd2BVFhdhp87/XmbJ1OBqvxeh4ZjnMlRP+7ne2OJA1ZQ5eiaTFIRobYLVbZ5svNPLK1ewLyl136WC63r/NrmX9LoWl74WlOiXny6LGH8BaBFaVIkX3bbarl8PeTVJ+aso8mf+hqCRYtRrfRdbQF66CxbneY2JnXxehxF8jFHS+e2/5ghDq3RYZrrC9inVFqo2Eo1oTA8npVIMgQf/UpUcJN9pbRUKf7TXu1fWwtkEQk9nGUHPzue7sADecjnIirknwZbAgtXJBZZVKMy+UuC3KVvIu1QDLlueNvkg6Y6DrwtHl205JX6rWV7HErz+CFeYZPsi3Ynd90KYT8wQIzbw4sP0aoB5Mk9MMeOJaAKvCQnpPOCNl2lXpjiikfSOxR7cP2Tk8YiQdryUAZIJGje+QmJndoeiihKyhet/6IN12uKRtdyrvFT2CbIeps7wIkh4=","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_MAX","LastModifiedDate":1533833536.98,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_MAX","Type":"String","Value":"*","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_POOL_MIN","LastModifiedDate":1533833530.712,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_POOL_MIN","Type":"String","Value":"*","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_PORT","LastModifiedDate":1533833529.736,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_PORT","Type":"String","Value":"****","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_MIGRATE_PWD","LastModifiedDate":1543963084.445,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_MIGRATE_PWD","Type":"SecureString","Value":"*************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_SIZE","LastModifiedDate":1533833544.759,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_SIZE","Type":"String","Value":"*","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_PWD","LastModifiedDate":1543963061.457,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_PWD","Type":"SecureString","Value":"***********","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_READ_HOST","LastModifiedDate":1533833539.995,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_READ_HOST","Type":"String","Value":"***************************","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_WRITE_HOST","LastModifiedDate":1533833541.923,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_WRITE_HOST","Type":"String","Value":"****************************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_WRITE_NAME","LastModifiedDate":1533833542.866,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_WRITE_NAME","Type":"String","Value":"********","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DYNAMO_REGION","LastModifiedDate":1533833551.762,"Name":"/config-v0.0.1/modules/prodigy-api/DYNAMO_REGION","Type":"String","Value":"*********","Version":4}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:31 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/modules/prodigy-api","NextToken":"AAEAATGvqdHH91JMI4lg4IMimKJmIgXnVhC3oLWvZSkGuo/kAAAAAF1S9odac1ecLjEgbE9bqRa1nh2YtDwM4SmZe2KpvISaVHC7zwLcdqHwkxXb4ub3ogyth3hVTu2Oo33/REF/zrs1xw5SBpdaCRhN9r9xU4zbSZfPnKBRsfSOkQpzPDJ0iAKNel+BGiwkBsLzMNeN87efZuTNpGNyTf0qRljjEgYblhY9d3AVoU14mkIlPZ+lrW+Km2W2i8GiGn0Y1sMhK19qFnlr2LWr2KgiqKiHF0cCAZ9myflk4o7hOg4Hi51DIBKHI2Gd2BVFhdhp87/XmbJ1OBqvxeh4ZjnMlRP+7ne2OJA1ZQ5eiaTFIRobYLVbZ5svNPLK1ewLyl136WC63r/NrmX9LoWl74WlOiXny6LGH8BaBFaVIkX3bbarl8PeTVJ+aso8mf+hqCRYtRrfRdbQF66CxbneY2JnXxehxF8jFHS+e2/5ghDq3RYZrrC9inVFqo2Eo1oTA8npVIMgQf/UpUcJN9pbRUKf7TXu1fWwtkEQk9nGUHPzue7sADecjnIirknwZbAgtXJBZZVKMy+UuC3KVvIu1QDLlueNvkg6Y6DrwtHl205JX6rWV7HErz+CFeYZPsi3Ynd90KYT8wQIzbw4sP0aoB5Mk9MMeOJaAKvCQnpPOCNl2lXpjiikfSOxR7cP2Tk8YiQdryUAZIJGje+QmJndoeiihKyhet/6IN12uKRtdyrvFT2CbIeps7wIkh4=","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174231Z
+      X-Amz-Content-Sha256:
+      - f46f9671b549cf64046c406c85c7c675474e73f5fa71f99a7787f7b4afc0f8bc
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=6da9a86d052c4d60eecc4e8fb7cf070bff08eb75e6182b768d0e5675f7c37ecc
+      Content-Length:
+      - '846'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 4d45ecd0-9670-41aa-91d6-1b904d421634
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3383
+      Date:
+      - Tue, 13 Aug 2019 17:42:31 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAaf3k+WITPChyXo14O8FP6dkFxuiZNnewh8ccos4AX4ZAAAAAF1S9oeI9sPIqLSgpM7gz6V3yH6LPPF+J1Wz4QAD6Ex/3SomKesJRXB0zyPCXfWo75TCuuNQLEoN9g3lI+u/iz1EL2OHFQYI1ORoRBbJu7zzXh40ydRLtgA90LfSLE+heLwtmYaRX/hwaM56N/su/SRF+59J6zmoR2oZIJAXzpyavibo4GeJsV0Rf4HvA3Kx9AvMJ2H+EFI5Lt2nVxhec+zQenPSMvHuRzn4F2kGEwdDPfkA9O8oeGVvcILdyJNvAKlIZYYcDv+yPqH9MwLdLtKar2h00NSLtV9xaADDt6UtVYFRx8p2hmmRQXGd6gzN4H0E1ZcfhA0gfXUrkB/J+o5eVb46is+Oyss8KRdVGbpmZeslEP6ZIU7oDu3IhHoH8mBTfmWzV0rT7BlQmjs8LFod2OfpAbPzct5GZkWmP299V2JiOw8nSaNT/C3DbxaLJSt+OFpJ29maO/ITDBcm4XlnTnjGRhEWEFgkIEs52wUyjObr/MhH9hqkil29HyZwQEbi0TqBwwjhGAqm8ah6Evdwo6OYMMSbdQPRQabe32z/txpLy9VeP4Bmqr8y5pVkrJ8M9vBO1iuVmzTD5JSZy+QXzUKM358F027lIajAdw2/MuIJgCGbqYepPsROU1N3mWe0qQw0gThgyCrOooWBku18kE23brlwsqdcKpssIpyAbOLxVwTDhS4ULCT5iq8zMHTQQNQ=","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_POOL_MIN","LastModifiedDate":1533833535.969,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_POOL_MIN","Type":"String","Value":"*","Version":5},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_POOL_MAX","LastModifiedDate":1533833531.714,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_POOL_MAX","Type":"String","Value":"*","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_POOL_MAX","LastModifiedDate":1533833527.733,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_POOL_MAX","Type":"String","Value":"*","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_POOL_MIN","LastModifiedDate":1533833526.703,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_POOL_MIN","Type":"String","Value":"*","Version":5},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_WRITE_HOST","LastModifiedDate":1552336526.226,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_WRITE_HOST","Type":"String","Value":"*****************************","Version":7},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_MAX","LastModifiedDate":1534450068.32,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_MAX","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_PORT","LastModifiedDate":1533833543.815,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_PORT","Type":"String","Value":"****","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_READ_NAME","LastModifiedDate":1533833540.943,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_READ_NAME","Type":"String","Value":"********","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_PWD","LastModifiedDate":1533833546.693,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_PWD","Type":"SecureString","Value":"***************","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_WRITE_NAME","LastModifiedDate":1533833548.773,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_WRITE_NAME","Type":"String","Value":"********************","Version":4}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:31 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/modules/prodigy-api","NextToken":"AAEAAaf3k+WITPChyXo14O8FP6dkFxuiZNnewh8ccos4AX4ZAAAAAF1S9oeI9sPIqLSgpM7gz6V3yH6LPPF+J1Wz4QAD6Ex/3SomKesJRXB0zyPCXfWo75TCuuNQLEoN9g3lI+u/iz1EL2OHFQYI1ORoRBbJu7zzXh40ydRLtgA90LfSLE+heLwtmYaRX/hwaM56N/su/SRF+59J6zmoR2oZIJAXzpyavibo4GeJsV0Rf4HvA3Kx9AvMJ2H+EFI5Lt2nVxhec+zQenPSMvHuRzn4F2kGEwdDPfkA9O8oeGVvcILdyJNvAKlIZYYcDv+yPqH9MwLdLtKar2h00NSLtV9xaADDt6UtVYFRx8p2hmmRQXGd6gzN4H0E1ZcfhA0gfXUrkB/J+o5eVb46is+Oyss8KRdVGbpmZeslEP6ZIU7oDu3IhHoH8mBTfmWzV0rT7BlQmjs8LFod2OfpAbPzct5GZkWmP299V2JiOw8nSaNT/C3DbxaLJSt+OFpJ29maO/ITDBcm4XlnTnjGRhEWEFgkIEs52wUyjObr/MhH9hqkil29HyZwQEbi0TqBwwjhGAqm8ah6Evdwo6OYMMSbdQPRQabe32z/txpLy9VeP4Bmqr8y5pVkrJ8M9vBO1iuVmzTD5JSZy+QXzUKM358F027lIajAdw2/MuIJgCGbqYepPsROU1N3mWe0qQw0gThgyCrOooWBku18kE23brlwsqdcKpssIpyAbOLxVwTDhS4ULCT5iq8zMHTQQNQ=","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174231Z
+      X-Amz-Content-Sha256:
+      - ef17f9a208277eaf6acd3a3db615cb4a31aafb8fe9efac4745c38d8e5aa0bb15
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=12e7f707e8787b7f3a451466fbbe7f5d0d0959167e661fb2e9ee8e46303d0e30
+      Content-Length:
+      - '846'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - cdf2f437-b452-4fd1-ae8a-e75001d99dc8
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3515
+      Date:
+      - Tue, 13 Aug 2019 17:42:31 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAARHpKwb1zC+CcgSrIvgapfc4GcFySKx8U1jMn9DucY0AAAAAAF1S9oe7CSqL34D8XsrvCCnNnpgqGLzpnlkYN6pOhqNUhtUIYmsCqjWp6bJIaK3ajOFHaEYz6UkiZENAP8uwwzdGD1CSha+hBwPoDJdBre4xxpA5z3NqhdhaBX/fbQ4cDySUHIEP6gU0eIJFZsix81gCmDjO34HjHMdfUHw4vOK+eiun0Yz6H8Af3/3L1CBfV65H36Alk3tpfx3iIiD9LmACUZxFc4RjReghCLHVUhcPiPgKJtpwg/EVF2mDy68WSez44lt+4jMyz5LxPE+kTIMQDSFObegpdo2E3MqCfEXUkJBtNM5DO1vCfjn75W415yS4AR5Ydi8Y5ePQq4YrC5bbm9LQN66jSVzi4KX+hz6beT1CNNCzpJycrrsSUsFsTAAE+BPH8QWxy4jVUf9WO2IRs/c3Pr7yv1s2qGYq2dg6NDkTw+xGo50jHqIqiTY3sl1MTdJqRsGcsjVHErfeEX1kW3TlvCdr90iKTNFbziSGwdltGU3XgPRjHmMWB2XED9EAlQ6tT1SoA+Jq7kzg7a3YcQTRTYjFmf3eDgg6UfloKN4Ujc6GvuzcuXdkenUxsPhMFe1jsgoj9zRTfpMnm6dMV4zk8jaHvTIDrVRyVamzdBEGyzLnz+sWfo/CWCCVTnTu2jCwukduH+XTf5tLu2m+orOqAkDiSE3GHCFlvQGArMBGXWFStMgDChbubz3LiTK0nKjEGCFN15DJG2pZdFU9RV9h","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_POOL_MAX","LastModifiedDate":1536692222.543,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_POOL_MAX","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_PORT","LastModifiedDate":1533833534.985,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_PORT","Type":"String","Value":"****","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_WRITE_HOST","LastModifiedDate":1552598308.835,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_CLIENT_WRITE_HOST","Type":"String","Value":"***********************************","Version":7},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_IDLE_TIMEOUT","LastModifiedDate":1533833532.73,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_IDLE_TIMEOUT","Type":"String","Value":"***********","Version":5},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_WRITE_HOST","LastModifiedDate":1552598357.646,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_FLAGS_WRITE_HOST","Type":"String","Value":"***********************************","Version":7},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_MIGRATE_USER","LastModifiedDate":1544472260.388,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_MIGRATE_USER","Type":"String","Value":"********************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_MIN","LastModifiedDate":1534450056.991,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_POOL_MIN","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_POOL_MAX","LastModifiedDate":1533833550.796,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_POOL_MAX","Type":"String","Value":"*","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_USER","LastModifiedDate":1533833545.738,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_USER","Type":"String","Value":"**********","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_WRITE_HOST","LastModifiedDate":1533833547.67,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_WRITE_HOST","Type":"String","Value":"********************************************","Version":4}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:31 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/modules/prodigy-api","NextToken":"AAEAARHpKwb1zC+CcgSrIvgapfc4GcFySKx8U1jMn9DucY0AAAAAAF1S9oe7CSqL34D8XsrvCCnNnpgqGLzpnlkYN6pOhqNUhtUIYmsCqjWp6bJIaK3ajOFHaEYz6UkiZENAP8uwwzdGD1CSha+hBwPoDJdBre4xxpA5z3NqhdhaBX/fbQ4cDySUHIEP6gU0eIJFZsix81gCmDjO34HjHMdfUHw4vOK+eiun0Yz6H8Af3/3L1CBfV65H36Alk3tpfx3iIiD9LmACUZxFc4RjReghCLHVUhcPiPgKJtpwg/EVF2mDy68WSez44lt+4jMyz5LxPE+kTIMQDSFObegpdo2E3MqCfEXUkJBtNM5DO1vCfjn75W415yS4AR5Ydi8Y5ePQq4YrC5bbm9LQN66jSVzi4KX+hz6beT1CNNCzpJycrrsSUsFsTAAE+BPH8QWxy4jVUf9WO2IRs/c3Pr7yv1s2qGYq2dg6NDkTw+xGo50jHqIqiTY3sl1MTdJqRsGcsjVHErfeEX1kW3TlvCdr90iKTNFbziSGwdltGU3XgPRjHmMWB2XED9EAlQ6tT1SoA+Jq7kzg7a3YcQTRTYjFmf3eDgg6UfloKN4Ujc6GvuzcuXdkenUxsPhMFe1jsgoj9zRTfpMnm6dMV4zk8jaHvTIDrVRyVamzdBEGyzLnz+sWfo/CWCCVTnTu2jCwukduH+XTf5tLu2m+orOqAkDiSE3GHCFlvQGArMBGXWFStMgDChbubz3LiTK0nKjEGCFN15DJG2pZdFU9RV9h","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174231Z
+      X-Amz-Content-Sha256:
+      - a7824737881cf4234f51b479d8d8724d71d05c3b18478ebbd634d0a2b3703ec4
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=9615b81ceea048affdbbbfe848653ddd50789b6809acdf9661ee8560f6c04c36
+      Content-Length:
+      - '866'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 975a8c55-970d-43fa-abc8-c5cf9c7129e8
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 773
+      Date:
+      - Tue, 13 Aug 2019 17:42:31 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_PORT","LastModifiedDate":1533833525.736,"Name":"/config-v0.0.1/modules/prodigy-api/CACHE_SESSION_PORT","Type":"String","Value":"****","Version":6},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_USER","LastModifiedDate":1543954609.485,"Name":"/config-v0.0.1/modules/prodigy-api/DB_LIVEDATA_USER","Type":"String","Value":"******************","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/modules/prodigy-api/DB_REPORTING_POOL_MIN","LastModifiedDate":1533833549.777,"Name":"/config-v0.0.1/modules/prodigy-api/DB_REPORTING_POOL_MIN","Type":"String","Value":"*","Version":4}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:32 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174232Z
+      X-Amz-Content-Sha256:
+      - 9f266bdbce7b5f291572d6d0c91199cbe09885e66ad35de9094a04faba088d10
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=2017ddb41043d962a356215d0136a88c3b62234700c009c3f1ac2d756488e4e0
+      Content-Length:
+      - '51'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - fd1650bf-d2ab-4580-903e-950b06194c4a
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3089
+      Date:
+      - Tue, 13 Aug 2019 17:42:32 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAYePMgz5ixQ8DM56QA4ZMqMctLd5p0jVkssviRF9b+y1AAAAAF1S9ogH0pG4Z+Wca2W0S1AA5uD5hfYocDJo08bU8riu0Wwwen7lnt7SVWGCfVzgwVP/arqbOatMBzbwbmJPdFgT4Yk9Dq4d+ezEnhYH1uCCCeiuij4Xbv95/juSlz7IUb15UQQxmZ6L0hCgHVD2iPAq+j7FouffdglBwPx2sTwroMj1HvLqutN9dbms/XssuyDtDLbl2VP18iPyImFnpUJ8oHdjVCkzJ2eUVb74JQDFsgRZuOnZoKY7sztblFzXEJhycmO2ebCkZKHa3mEc9pEmD5rxKdO1imCyFzJQyHb6vHeFgQwJlfz7wazr5RV1ZIL6UOuC9IrfK9DqcJ0LTpjRkBL/yQ+wNbB1bZBB5gV8v8dQSOFwdhbbvlJvYuoykM2DbeZhX/EQQt2kqA5aS3Oj7u2HOZv5RB4Cy8onlpWXq8Y/SR2G9bAYIdOGr/y4mBm5L16RsJv77q4Rvb7r3fZZwTI5b5+CXYuYsR7RqqbUtamuvAY0Nd8X6RWYVGOiPSNczfFzMXHM+xjWk4RGZxNLWxnHhgtG4AuZy4xQ9Zgy+6OmMwJ+ikqaS0PlJq1zakWdL7j0BYZn0+LvDoqn51Rg7XZqR5I4Hj0YbaSdq1x86Y0YoCTvgSn4+whwHC9ockysL6noKqDzKLSddJukKCcX4siS","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/APM_PLUGINS","LastModifiedDate":1564600609.008,"Name":"/config-v0.0.1/app/APM_PLUGINS","Type":"String","Value":"*******","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ASSET_CACHE_POOL_MIN","LastModifiedDate":1543252575.023,"Name":"/config-v0.0.1/app/ASSET_CACHE_POOL_MIN","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_ANSWERS_HOST","LastModifiedDate":1552527928.656,"Name":"/config-v0.0.1/app/DB_ANSWERS_HOST","Type":"String","Value":"*****************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_READ_HOST","LastModifiedDate":1532100230.531,"Name":"/config-v0.0.1/app/DB_STATS_READ_HOST","Type":"String","Value":"*****************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_READ_NEWS_NAME","LastModifiedDate":1532100231.371,"Name":"/config-v0.0.1/app/DB_STATS_READ_NEWS_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_POOL_MAX","LastModifiedDate":1534946086.097,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_POOL_MAX","Type":"String","Value":"*","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_USER","LastModifiedDate":1534946086.9,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_USER","Type":"SecureString","Value":"*************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ES_SEARCH_SECRET_ACCESS_KEY","LastModifiedDate":1531337997.009,"Name":"/config-v0.0.1/app/ES_SEARCH_SECRET_ACCESS_KEY","Type":"SecureString","Value":"****************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/OPSKEY","LastModifiedDate":1531862515.319,"Name":"/config-v0.0.1/app/OPSKEY","Type":"SecureString","Value":"***************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/SPOTINST_ACCOUNT","LastModifiedDate":1540832671.152,"Name":"/config-v0.0.1/app/SPOTINST_ACCOUNT","Type":"String","Value":"************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:32 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAYePMgz5ixQ8DM56QA4ZMqMctLd5p0jVkssviRF9b+y1AAAAAF1S9ogH0pG4Z+Wca2W0S1AA5uD5hfYocDJo08bU8riu0Wwwen7lnt7SVWGCfVzgwVP/arqbOatMBzbwbmJPdFgT4Yk9Dq4d+ezEnhYH1uCCCeiuij4Xbv95/juSlz7IUb15UQQxmZ6L0hCgHVD2iPAq+j7FouffdglBwPx2sTwroMj1HvLqutN9dbms/XssuyDtDLbl2VP18iPyImFnpUJ8oHdjVCkzJ2eUVb74JQDFsgRZuOnZoKY7sztblFzXEJhycmO2ebCkZKHa3mEc9pEmD5rxKdO1imCyFzJQyHb6vHeFgQwJlfz7wazr5RV1ZIL6UOuC9IrfK9DqcJ0LTpjRkBL/yQ+wNbB1bZBB5gV8v8dQSOFwdhbbvlJvYuoykM2DbeZhX/EQQt2kqA5aS3Oj7u2HOZv5RB4Cy8onlpWXq8Y/SR2G9bAYIdOGr/y4mBm5L16RsJv77q4Rvb7r3fZZwTI5b5+CXYuYsR7RqqbUtamuvAY0Nd8X6RWYVGOiPSNczfFzMXHM+xjWk4RGZxNLWxnHhgtG4AuZy4xQ9Zgy+6OmMwJ+ikqaS0PlJq1zakWdL7j0BYZn0+LvDoqn51Rg7XZqR5I4Hj0YbaSdq1x86Y0YoCTvgSn4+whwHC9ockysL6noKqDzKLSddJukKCcX4siS","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174232Z
+      X-Amz-Content-Sha256:
+      - 6d339413a390f301acd6777b4b6021004903dbf3e1c320e71db311a76c7a2b7b
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=a521cff180238480845880dc640d6dc902093f567561a08153e65e9ee1fc7aa2
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 18b06eb7-6f7d-41a7-977e-a6a268a2b53c
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3101
+      Date:
+      - Tue, 13 Aug 2019 17:42:32 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAYGaoG9v/3Vl2BiCdzmBhQjfgi3+Rgtx+7TTUuADNckJAAAAAF1S9ojpCKWpgUYYAp/8fVpz7PMbAmBese/KPMJbnX042/JtDZtsklienNRcW6v1x0hrnGp8RbLeb/LgUpzgF3aC6cSyCUVbCa4b6bRBYVm5EYUlOnGFhWaRM6AeJdE0N7JaIN04I44iJJzIX83eFVOscw1w+bPXoklTggsSghoti4kQTK2KNa4II8V7V4owQJo9QeDKK9azmS1XUixhq2lxcU7yc1zdD18xGIXh+84SI38yVDFInSphUo/LT6JwuS4rx5+FZt2LYJysNWxLjSmgc8V13rBReQN/GdHsjN3EEPAO/p7noWnqUMG/1ZeJj/BVxxMMSZMDtUVtDSvqMtRiGFO006Rdl7vqjLzCyP3vXEp2fZqj+pK5pTEvfuklmCLOpTWVaH5fHBM0+pZRlKpycmQqwDH/mTDPbXaepIbebdkhGQuSzkCx0UUDl1gB0GTz6hqYaHzshvivNBO5N/zx2nNdNSR8l/Ktn3/lkjrDPl2dvoFj41tqtLy2weL+syKO23mJiisvVgC2C5ELd0mW3rWNMqVUjwZYi9fxWc6PWfdi0g8kvAx4pM5iv2qB8AeIlbh8Lapq2dXvRDn6sbombiEVBou645X+56IKeJqGk/3NqcmOrw0umj85szNlOga94ZBOFQsfghmiKXsNIAZiqFIQGcZVlcmzFqGlgDPDoQK3Dg==","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/AWS_FIREHOSE_ACCESS_KEY_ID","LastModifiedDate":1531338134.95,"Name":"/config-v0.0.1/app/AWS_FIREHOSE_ACCESS_KEY_ID","Type":"String","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DATADOG_APM","LastModifiedDate":1554392995.828,"Name":"/config-v0.0.1/app/DATADOG_APM","Type":"String","Value":"*****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_ANSWERS_PORT","LastModifiedDate":1552527929.277,"Name":"/config-v0.0.1/app/DB_ANSWERS_PORT","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_POOL_MIN","LastModifiedDate":1534946482.97,"Name":"/config-v0.0.1/app/DB_EDUCATION_POOL_MIN","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_POOL_SIZE","LastModifiedDate":1532100236.739,"Name":"/config-v0.0.1/app/DB_STATS_POOL_SIZE","Type":"String","Value":"**","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_PWD","LastModifiedDate":1534946087.718,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_PWD","Type":"SecureString","Value":"*************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DD_API_KEY","LastModifiedDate":1551978874.677,"Name":"/config-v0.0.1/app/DD_API_KEY","Type":"SecureString","Value":"********************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ES_ANSWERS_HOST","LastModifiedDate":1531245383.314,"Name":"/config-v0.0.1/app/ES_ANSWERS_HOST","Type":"String","Value":"****************************************************************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ES_SEARCH_ACCESS_KEY_ID","LastModifiedDate":1531338027.585,"Name":"/config-v0.0.1/app/ES_SEARCH_ACCESS_KEY_ID","Type":"String","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/MATCHMAKING_REDIS_POOL_MIN","LastModifiedDate":1545166515.266,"Name":"/config-v0.0.1/app/MATCHMAKING_REDIS_POOL_MIN","Type":"String","Value":"*","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:32 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAYGaoG9v/3Vl2BiCdzmBhQjfgi3+Rgtx+7TTUuADNckJAAAAAF1S9ojpCKWpgUYYAp/8fVpz7PMbAmBese/KPMJbnX042/JtDZtsklienNRcW6v1x0hrnGp8RbLeb/LgUpzgF3aC6cSyCUVbCa4b6bRBYVm5EYUlOnGFhWaRM6AeJdE0N7JaIN04I44iJJzIX83eFVOscw1w+bPXoklTggsSghoti4kQTK2KNa4II8V7V4owQJo9QeDKK9azmS1XUixhq2lxcU7yc1zdD18xGIXh+84SI38yVDFInSphUo/LT6JwuS4rx5+FZt2LYJysNWxLjSmgc8V13rBReQN/GdHsjN3EEPAO/p7noWnqUMG/1ZeJj/BVxxMMSZMDtUVtDSvqMtRiGFO006Rdl7vqjLzCyP3vXEp2fZqj+pK5pTEvfuklmCLOpTWVaH5fHBM0+pZRlKpycmQqwDH/mTDPbXaepIbebdkhGQuSzkCx0UUDl1gB0GTz6hqYaHzshvivNBO5N/zx2nNdNSR8l/Ktn3/lkjrDPl2dvoFj41tqtLy2weL+syKO23mJiisvVgC2C5ELd0mW3rWNMqVUjwZYi9fxWc6PWfdi0g8kvAx4pM5iv2qB8AeIlbh8Lapq2dXvRDn6sbombiEVBou645X+56IKeJqGk/3NqcmOrw0umj85szNlOga94ZBOFQsfghmiKXsNIAZiqFIQGcZVlcmzFqGlgDPDoQK3Dg==","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174232Z
+      X-Amz-Content-Sha256:
+      - d7fc5ce584b67d4bc401f3b31da423fce39bf37deaf7b37beda8d2cc2e6d8a0c
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=544a791e2a429fd9c2358ae2e9cb06d95312536480652e0565e4cadc0cb4447f
+      Content-Length:
+      - '810'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 3566652b-61c0-4a91-8be4-5b66854dce8e
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3139
+      Date:
+      - Tue, 13 Aug 2019 17:42:32 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAXbOAqgMupBcfH0zV5CXdvveZCXkQDMfuMKgjbb0jLPUAAAAAF1S9ogbLJx6XFWCT9Zqvt6ScNHc3Mb8gBJyUS6cxGvaGA3KiBVvTEbr5sHzzzycWjN3jVZEw1QUXCidiLc9PpI1Ylhvvwh659XdOKkE6XHvQoFYw9pR38dI14f2JphlHb2xTGkljBwIVvavC2SX4d1G33LiM6jkCdTBRSyjYClvSFQYtSEIK3NfhCqRSOkaRLcub4MnNO52QS7lOZf43D95/DSxZLm4h3piDd8YBNj4pz4RlxBSeTUoWHyb+L6gVPh7uF31+j2/ucqe9/0+7+8pCDCStSiRCrvfPIlTlAXfBpENlxMY5idWAFjfoHXZ9fmd3SAIxg1UrITAB+KIRmWviU6QvJQ6Krj3cja57ME9rE/9e9yW354cRziFs1MSrjExbQV7jKgN39ZWPns87PQwNbX4EtHjxUC+9wEJKUM2INx8x6HfFMDbRyo9A2kWBSw+WOvbLv6nP8M1DlerXxlFnyOl9oQ3vpBtNsSFiV1i0KoZrROWJBMhmhbrOIVVcmIy0X8k8U74xGmBlwsPfPJq5bGQ5TRJ4/Pe/TUkB3oRzFDjV/R8KRc1iLWBvnM1Bn1ksL5NY7mi1VACXwDviuYWUAn/JoCVSbtwxxIBi/6gO+a0TezPY7pEM9iIpGpQZplyT8APaQ/L5x3/QKIu5Fy9LqqP","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/AWS_FIREHOSE_SECRET_ACCESS_KEY","LastModifiedDate":1531338154.523,"Name":"/config-v0.0.1/app/AWS_FIREHOSE_SECRET_ACCESS_KEY","Type":"SecureString","Value":"****************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/CONFIG_SOURCE","LastModifiedDate":1529673135.881,"Name":"/config-v0.0.1/app/CONFIG_SOURCE","Type":"String","Value":"***********************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/CUSTOMERIO_SITE_ID","LastModifiedDate":1530211405.845,"Name":"/config-v0.0.1/app/CUSTOMERIO_SITE_ID","Type":"String","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_WRITE_HOST","LastModifiedDate":1534945589.548,"Name":"/config-v0.0.1/app/DB_NEWS_WRITE_HOST","Type":"String","Value":"******************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_POOL_MIN","LastModifiedDate":1534946085.323,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_POOL_MIN","Type":"String","Value":"*","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DOMAIN_ORIGIN","LastModifiedDate":1536082833.07,"Name":"/config-v0.0.1/app/DOMAIN_ORIGIN","Type":"String","Value":"***************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_ASSIGNMENT_DATA_TABLE","LastModifiedDate":1530042856.078,"Name":"/config-v0.0.1/app/DYNAMO_ASSIGNMENT_DATA_TABLE","Type":"String","Value":"***************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_CHARACTER_TABLE","LastModifiedDate":1554834509.917,"Name":"/config-v0.0.1/app/DYNAMO_CHARACTER_TABLE","Type":"String","Value":"********************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_PLACEMENT_TEST_DATA_TABLE","LastModifiedDate":1530042876.834,"Name":"/config-v0.0.1/app/DYNAMO_PLACEMENT_TEST_DATA_TABLE","Type":"String","Value":"*******************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JWT_EXPIRES_IN","LastModifiedDate":1559053099.26,"Name":"/config-v0.0.1/app/JWT_EXPIRES_IN","Type":"String","Value":"***","Version":2}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:33 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAXbOAqgMupBcfH0zV5CXdvveZCXkQDMfuMKgjbb0jLPUAAAAAF1S9ogbLJx6XFWCT9Zqvt6ScNHc3Mb8gBJyUS6cxGvaGA3KiBVvTEbr5sHzzzycWjN3jVZEw1QUXCidiLc9PpI1Ylhvvwh659XdOKkE6XHvQoFYw9pR38dI14f2JphlHb2xTGkljBwIVvavC2SX4d1G33LiM6jkCdTBRSyjYClvSFQYtSEIK3NfhCqRSOkaRLcub4MnNO52QS7lOZf43D95/DSxZLm4h3piDd8YBNj4pz4RlxBSeTUoWHyb+L6gVPh7uF31+j2/ucqe9/0+7+8pCDCStSiRCrvfPIlTlAXfBpENlxMY5idWAFjfoHXZ9fmd3SAIxg1UrITAB+KIRmWviU6QvJQ6Krj3cja57ME9rE/9e9yW354cRziFs1MSrjExbQV7jKgN39ZWPns87PQwNbX4EtHjxUC+9wEJKUM2INx8x6HfFMDbRyo9A2kWBSw+WOvbLv6nP8M1DlerXxlFnyOl9oQ3vpBtNsSFiV1i0KoZrROWJBMhmhbrOIVVcmIy0X8k8U74xGmBlwsPfPJq5bGQ5TRJ4/Pe/TUkB3oRzFDjV/R8KRc1iLWBvnM1Bn1ksL5NY7mi1VACXwDviuYWUAn/JoCVSbtwxxIBi/6gO+a0TezPY7pEM9iIpGpQZplyT8APaQ/L5x3/QKIu5Fy9LqqP","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174233Z
+      X-Amz-Content-Sha256:
+      - 1d888f432b954a2802539262b0e03fbc9edc85a253fb82594163c66158677307
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=fcbd7aff2d513d8f4d4a1171bbff32ba02a8d3ba534f9ecd41ea3034baab1a48
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - c0218f31-f551-464c-88a7-2989896e7463
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3009
+      Date:
+      - Tue, 13 Aug 2019 17:42:33 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAZJCyRm6WJMrh5j1/yuEKvAc3rHIGBwprdBhtSsVacWWAAAAAF1S9onTsfRdsh8XO8IMUrMVTttkyLT2nN6XD1ia7PR8bXAhx6v73GrK880Fe7z9g4sP2dckU4rjlqo/gu/CNGn2bQH6XYb0hsbDC83Lo9n8DfDdMeZ1cOTmDkUDD0PZnBp6/elGpIxL8q1B5H01PYVI2Wmgg2EP474HQYyHYRZFqPKsuFHSs+TRlVs+q4FBnRs9/pMyABrbhQJklaiu682+Qu88ML1gfjCAeIuEDYPFvAxLMltcqF8ObGjnGsjPimpz2QIw/aBg6kh1EX8wU3cXmodWCKoCpBtvsfIHP2sxS89/Fl+QPHeHq45DlbVZSjF43ebX3icN/bUsy70SSMHW9tS9/KJOJEjgGbdHgUdlJ/cQAn30jr7+zkDcJg3ehY3R2MVt2mOFS1OvriUFMPCMl1yeN3HrB6g0sE5gjYqSKFam6/1qNWrXjV585BPH8i9byRIA5pQcsu+79lOvPSXXeY4heZlwx0yMyzt/J4wTrto7od0zRn/swhPCMDLV5JzUPhp1kO4G8QKuMivu7pOLKIn8r+6upIiG9Nkk8GXdqoX7Gpcud6jlA7gxDPdGkb77YOJMFAnGq0wl31R5vuvMVdxyQMLQBpp6G9juX/yHC91IXoq+ETlOK7a9BM3Bz5Y+4bc=","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ASSET_CACHE_HOST","LastModifiedDate":1543252517.924,"Name":"/config-v0.0.1/app/ASSET_CACHE_HOST","Type":"String","Value":"********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ASSET_CACHE_PORT","LastModifiedDate":1543252547.083,"Name":"/config-v0.0.1/app/ASSET_CACHE_PORT","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/CUSTOMERIO_API_KEY","LastModifiedDate":1530211432.845,"Name":"/config-v0.0.1/app/CUSTOMERIO_API_KEY","Type":"String","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_MIGRATE_PWD","LastModifiedDate":1534946487.081,"Name":"/config-v0.0.1/app/DB_EDUCATION_MIGRATE_PWD","Type":"SecureString","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_MIGRATE_USER","LastModifiedDate":1534946486.203,"Name":"/config-v0.0.1/app/DB_EDUCATION_MIGRATE_USER","Type":"SecureString","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_GAME_READ_HOST","LastModifiedDate":1534261668.551,"Name":"/config-v0.0.1/app/DB_GAME_READ_HOST","Type":"String","Value":"****************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_READ_NAME","LastModifiedDate":1534945588.756,"Name":"/config-v0.0.1/app/DB_NEWS_READ_NAME","Type":"String","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_POOL_MAX","LastModifiedDate":1534449983.193,"Name":"/config-v0.0.1/app/DB_STATS_POOL_MAX","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/GAME_URI","LastModifiedDate":1563205997.756,"Name":"/config-v0.0.1/app/GAME_URI","Type":"String","Value":"****************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/MATCHMAKING_REDIS_POOL_MAX","LastModifiedDate":1545166501.97,"Name":"/config-v0.0.1/app/MATCHMAKING_REDIS_POOL_MAX","Type":"String","Value":"**","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:33 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAZJCyRm6WJMrh5j1/yuEKvAc3rHIGBwprdBhtSsVacWWAAAAAF1S9onTsfRdsh8XO8IMUrMVTttkyLT2nN6XD1ia7PR8bXAhx6v73GrK880Fe7z9g4sP2dckU4rjlqo/gu/CNGn2bQH6XYb0hsbDC83Lo9n8DfDdMeZ1cOTmDkUDD0PZnBp6/elGpIxL8q1B5H01PYVI2Wmgg2EP474HQYyHYRZFqPKsuFHSs+TRlVs+q4FBnRs9/pMyABrbhQJklaiu682+Qu88ML1gfjCAeIuEDYPFvAxLMltcqF8ObGjnGsjPimpz2QIw/aBg6kh1EX8wU3cXmodWCKoCpBtvsfIHP2sxS89/Fl+QPHeHq45DlbVZSjF43ebX3icN/bUsy70SSMHW9tS9/KJOJEjgGbdHgUdlJ/cQAn30jr7+zkDcJg3ehY3R2MVt2mOFS1OvriUFMPCMl1yeN3HrB6g0sE5gjYqSKFam6/1qNWrXjV585BPH8i9byRIA5pQcsu+79lOvPSXXeY4heZlwx0yMyzt/J4wTrto7od0zRn/swhPCMDLV5JzUPhp1kO4G8QKuMivu7pOLKIn8r+6upIiG9Nkk8GXdqoX7Gpcud6jlA7gxDPdGkb77YOJMFAnGq0wl31R5vuvMVdxyQMLQBpp6G9juX/yHC91IXoq+ETlOK7a9BM3Bz5Y+4bc=","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174233Z
+      X-Amz-Content-Sha256:
+      - 31f35ecadc6429e5c72dbad94b73cb4726ad12ec9f9828082cc18cab37b6967e
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=1bc64ff5361f25592e33f46674e010ae15ce5a0e91ac1bbbb4e8fbac19a4cfa7
+      Content-Length:
+      - '766'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - a98883e3-425f-42ae-b33f-44cf7d9b48f8
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3173
+      Date:
+      - Tue, 13 Aug 2019 17:42:32 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAcPWy9YOlf4HPo8kit8rt5Tc2TLLBosW7UP0+xv8+K2QAAAAAF1S9olL0Iu79OWttjJknHmZaLKU00zk+z09qyXlVeaNTWyHLQlkfBPnpOqgy42iqeK+PyTRw82ENOPt5gY1Zs+amJ0hPszCyjFCMUATpSs2hUwqrNmIiOEFh+wTyeH3hLMSI/BAGHLzMLQwSSKRx5+coO+kP+u4oaoJ/y1et0QD64vCoENP4AmNGHtGvX1sAnu6GX5ic3oiRnbZdT6zSmXStZ+9yMqZfprRg+X0OyoKesFAJfcHYQ5El4WSf1e+Rh3tqgSVOeCjHZDIwvuKjZO8rpjX/C1g7qg5JX4g00hW0Zk7ZdpNNpytidRWf1f+VvQNOVGMQ3bvAYZ7mzm+pfHmDfJ/TdbBG30A6O0TL9U/beDIOR1L8eYuQYU0MXs1GOdfkYN1pEf70jn7T9+WE2WgN4Z3Vka4Ex1CSzllliEfHhx6ERfAgvXmYUBgB/TR7aCCJrUkWvd7+aNlypbzcFt/woBixtkQdQc4OAvBQ1WRctl7h4f5yes0DOolJjEXujuATF4kisT0fdw8m6/cuHjO12aAbKFlSbZLkGiM81MkjAXP+Z5DblODl4tlbpgGivUgEaotg/U1FAi+o4sw11QcIVDpO5FGYZUkRHt/UASqBpMyh2QjgpY9gE7aRiYU9P/NSOK5ahM8QDqF5wBO5j1M6IFYr3kknHrmBu9ddLKzI5V8ag==","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ASSET_CACHE_POOL_MAX","LastModifiedDate":1543252563.984,"Name":"/config-v0.0.1/app/ASSET_CACHE_POOL_MAX","Type":"String","Value":"**","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/AUTO_LOGIN_TOKEN_SECRET_KEY","LastModifiedDate":1560277652.696,"Name":"/config-v0.0.1/app/AUTO_LOGIN_TOKEN_SECRET_KEY","Type":"SecureString","Value":"********************************","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_PWD","LastModifiedDate":1534945594.533,"Name":"/config-v0.0.1/app/DB_NEWS_PWD","Type":"SecureString","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_USER","LastModifiedDate":1532100235.07,"Name":"/config-v0.0.1/app/DB_STATS_USER","Type":"String","Value":"********","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_WRITE_NAME","LastModifiedDate":1531857809.282,"Name":"/config-v0.0.1/app/DB_STATS_WRITE_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_WRITE_NEWS_NAME","LastModifiedDate":1532100233.386,"Name":"/config-v0.0.1/app/DB_STATS_WRITE_NEWS_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_READ_HOST","LastModifiedDate":1534946081.382,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_READ_HOST","Type":"String","Value":"*********************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_ANDROID","LastModifiedDate":1564591973.57,"Name":"/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_ANDROID","Type":"String","Value":"************************************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JWT_PUBLIC_KEY_PREVIOUS","LastModifiedDate":1549379439.545,"Name":"/config-v0.0.1/app/JWT_PUBLIC_KEY_PREVIOUS","Type":"SecureString","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/MATCHMAKING_REDIS_PORT","LastModifiedDate":1545166535.657,"Name":"/config-v0.0.1/app/MATCHMAKING_REDIS_PORT","Type":"String","Value":"****","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:33 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAcPWy9YOlf4HPo8kit8rt5Tc2TLLBosW7UP0+xv8+K2QAAAAAF1S9olL0Iu79OWttjJknHmZaLKU00zk+z09qyXlVeaNTWyHLQlkfBPnpOqgy42iqeK+PyTRw82ENOPt5gY1Zs+amJ0hPszCyjFCMUATpSs2hUwqrNmIiOEFh+wTyeH3hLMSI/BAGHLzMLQwSSKRx5+coO+kP+u4oaoJ/y1et0QD64vCoENP4AmNGHtGvX1sAnu6GX5ic3oiRnbZdT6zSmXStZ+9yMqZfprRg+X0OyoKesFAJfcHYQ5El4WSf1e+Rh3tqgSVOeCjHZDIwvuKjZO8rpjX/C1g7qg5JX4g00hW0Zk7ZdpNNpytidRWf1f+VvQNOVGMQ3bvAYZ7mzm+pfHmDfJ/TdbBG30A6O0TL9U/beDIOR1L8eYuQYU0MXs1GOdfkYN1pEf70jn7T9+WE2WgN4Z3Vka4Ex1CSzllliEfHhx6ERfAgvXmYUBgB/TR7aCCJrUkWvd7+aNlypbzcFt/woBixtkQdQc4OAvBQ1WRctl7h4f5yes0DOolJjEXujuATF4kisT0fdw8m6/cuHjO12aAbKFlSbZLkGiM81MkjAXP+Z5DblODl4tlbpgGivUgEaotg/U1FAi+o4sw11QcIVDpO5FGYZUkRHt/UASqBpMyh2QjgpY9gE7aRiYU9P/NSOK5ahM8QDqF5wBO5j1M6IFYr3kknHrmBu9ddLKzI5V8ag==","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174233Z
+      X-Amz-Content-Sha256:
+      - a1b8b0322ce6e250ff3af2ae86bcb8f40adb9990afc40ccd24304aebe23805d7
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=54a8903adf6bde6fd0dfa4fc6b8344b0f9b4447ead031b2c385f4614b3bc26f1
+      Content-Length:
+      - '810'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 5377e692-181b-432a-b8f7-17781afeee70
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3204
+      Date:
+      - Tue, 13 Aug 2019 17:42:32 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAfd6wYH9fpXBXT7MXCPGvRkzvXoK7Mw7vsG10XFPdGyQAAAAAF1S9onWP01KI0Eko+xL+5PcjJAWof1+FasU+6k1dDlkDj2UH9r+N1wRI+j4MQjvsehTC0lsYrrwT/gQ5TmxRNpjxSczrAp77cKYb/XPDP/dauINADhk9Wy2qdUOXTNDD6Ycc7ga5Diws2SuavRS9sLXNNBqIsXZ4PPXSVXYSZTu9gJEnP3S2wgKEP+1yEBO5GKPQMxAFHAxg6Ko+e0V0/HP5+m63YfindZbTplE2l8PrAwA7rKpDnTzUdbvrvAspUURKSsdLiE3JvXO7zGubPttyqVcpgRE+Va48GzmakJm+ony0oL3MbTMT+k17rVv0QjpGpQpw9ufOb/jvY/C7abQ8sKbJeUWVFjreRmkWZcyBG+zY/6/pTfM0nZ6nbFrPW28ctttQBI7AWpJyObDktL6JFop1lG8/KrqBhG5uD7dV9AJxt1IbeoUPlZ4WhjxGmp4c/+IOaUDUXMajbJAJxBVnhGzFTMvcWSzFCyy7SUOv6tPrLRQWRpbWdkDGHzGAcgBciis049I9QAIFF3LSugoz8TN0+IiNVevY2dlCeFWyDnzfPUx9Om04foy5EYKOI5jbVsjdjR5kmfpJ0EhnBoHCOhhsAP2NGySI+GZLeCZzLlZXPB/N1lwhhVg9VcvWUmsjG8LWF7fu4dqBFyKh9jWQaE7","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ACCOUNT_RESET_PWD_KEY","LastModifiedDate":1535489120.613,"Name":"/config-v0.0.1/app/ACCOUNT_RESET_PWD_KEY","Type":"SecureString","Value":"********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DATADOG_API_KEY","LastModifiedDate":1541446932.592,"Name":"/config-v0.0.1/app/DATADOG_API_KEY","Type":"SecureString","Value":"********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_ANSWERS_READ_USER","LastModifiedDate":1552527930.532,"Name":"/config-v0.0.1/app/DB_ANSWERS_READ_USER","Type":"String","Value":"***********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_ANSWERS_READ_USER_PWD","LastModifiedDate":1552528020.123,"Name":"/config-v0.0.1/app/DB_ANSWERS_READ_USER_PWD","Type":"SecureString","Value":"********************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_POOL_MIN","LastModifiedDate":1534945591.92,"Name":"/config-v0.0.1/app/DB_NEWS_POOL_MIN","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_PORT","LastModifiedDate":1532100234.214,"Name":"/config-v0.0.1/app/DB_STATS_PORT","Type":"String","Value":"****","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_PLACEMENT_DATA_TABLE","LastModifiedDate":1535398421.151,"Name":"/config-v0.0.1/app/DYNAMO_PLACEMENT_DATA_TABLE","Type":"String","Value":"*******************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ES_SEARCH_HOST","LastModifiedDate":1531337950.684,"Name":"/config-v0.0.1/app/ES_SEARCH_HOST","Type":"String","Value":"*************************************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_IOS","LastModifiedDate":1564592017.625,"Name":"/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_IOS","Type":"String","Value":"************************************************************************","Version":4},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/STRIPE_KEY","LastModifiedDate":1542060694.499,"Name":"/config-v0.0.1/app/STRIPE_KEY","Type":"SecureString","Value":"********************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:33 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAfd6wYH9fpXBXT7MXCPGvRkzvXoK7Mw7vsG10XFPdGyQAAAAAF1S9onWP01KI0Eko+xL+5PcjJAWof1+FasU+6k1dDlkDj2UH9r+N1wRI+j4MQjvsehTC0lsYrrwT/gQ5TmxRNpjxSczrAp77cKYb/XPDP/dauINADhk9Wy2qdUOXTNDD6Ycc7ga5Diws2SuavRS9sLXNNBqIsXZ4PPXSVXYSZTu9gJEnP3S2wgKEP+1yEBO5GKPQMxAFHAxg6Ko+e0V0/HP5+m63YfindZbTplE2l8PrAwA7rKpDnTzUdbvrvAspUURKSsdLiE3JvXO7zGubPttyqVcpgRE+Va48GzmakJm+ony0oL3MbTMT+k17rVv0QjpGpQpw9ufOb/jvY/C7abQ8sKbJeUWVFjreRmkWZcyBG+zY/6/pTfM0nZ6nbFrPW28ctttQBI7AWpJyObDktL6JFop1lG8/KrqBhG5uD7dV9AJxt1IbeoUPlZ4WhjxGmp4c/+IOaUDUXMajbJAJxBVnhGzFTMvcWSzFCyy7SUOv6tPrLRQWRpbWdkDGHzGAcgBciis049I9QAIFF3LSugoz8TN0+IiNVevY2dlCeFWyDnzfPUx9Om04foy5EYKOI5jbVsjdjR5kmfpJ0EhnBoHCOhhsAP2NGySI+GZLeCZzLlZXPB/N1lwhhVg9VcvWUmsjG8LWF7fu4dqBFyKh9jWQaE7","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174233Z
+      X-Amz-Content-Sha256:
+      - 070c9def63662264ccb04e08e3724dd742461d519c6915b949920d20193576fc
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=c2dfad2c62bde49a8cdaabf4ee688afec58244b8ed55e38f151caf13d86812b2
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 5cd5fee7-e94a-4bd5-b7e6-1422ebf65eac
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3124
+      Date:
+      - Tue, 13 Aug 2019 17:42:33 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAV9nMHMdYB80bKsfiut+5+nBT5VTO2Rkv9ABY6BXYMDwAAAAAF1S9oqQdkQ+1ZI+QUN1i/B3RYNP87npXOU8O89ioZyggLOQydHDMcdsDRMGUalSEZ+u513y+rfsgb5HaXRCp4KPX3WQQVTQBnl7ZGIpSqDYiQzfXIW1VccA/2asg/n2BhmTv8d0LlL6dncrnXfJcSO3nTqAdnozKeZfgguyBSDRvGKpgUBGitmhCW2BR5gP6tK0kXyVFMrspT//DC0reVDk4mXsbj51pXjuV22fRJV56XTn98MfVR2VsXRFEvlO5TwM6ooXpvwL6EGMzFLeLTNxZanuSBLthCQITfJzj+I5p7HWLtVKJXY1QBiDUS3p/uG8lmsvm3sWEET8Xa8mM30iO09q2OcZHgGjqWsWtCQ2iuXO48or8RJq/a1NflJYRg9GnQlfyUuozwC/8N37zNo9Z1E4f6LryMyF6UxXEfpCzpoB+0h9Kh+KODvoHkMEv65TRmRc8wMBSRKDmffnxm7QTooOSdWIv6SNg+LlvoJbpmVNKBQhDOB+u6q+2RXQ+2W71rDPmYh0NkVL4rDVZM0w1TOmvQ4udu1kIetpq6mu7u/vmrfXe2YhbFOdsxfUPGGHvJZm5AOEGSujf1bdD3gdCkDT7oUu9XDJeEn7ZV1mGgyPLpJY1iS4IXZBYkT/gf2vcM+iIPNU6lTMSJ0Fd2inEyT/","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_ANSWERS_DATABASE","LastModifiedDate":1552527929.909,"Name":"/config-v0.0.1/app/DB_ANSWERS_DATABASE","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_POOL_MAX","LastModifiedDate":1534946483.753,"Name":"/config-v0.0.1/app/DB_EDUCATION_POOL_MAX","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_PORT","LastModifiedDate":1534945591.132,"Name":"/config-v0.0.1/app/DB_NEWS_PORT","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_READ_HOST","LastModifiedDate":1534945587.959,"Name":"/config-v0.0.1/app/DB_NEWS_READ_HOST","Type":"String","Value":"*****************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_READ_NAME","LastModifiedDate":1531857807.628,"Name":"/config-v0.0.1/app/DB_STATS_READ_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_READ_NAME","LastModifiedDate":1534946082.181,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_READ_NAME","Type":"String","Value":"***********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_PLACEMENT_TEST_ANSWERS_DATA_TABLE","LastModifiedDate":1534364853.769,"Name":"/config-v0.0.1/app/DYNAMO_PLACEMENT_TEST_ANSWERS_DATA_TABLE","Type":"String","Value":"**************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/IDENTITY_URI","LastModifiedDate":1548687229.577,"Name":"/config-v0.0.1/app/IDENTITY_URI","Type":"String","Value":"***************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/PRODIGY_WEB_URL","LastModifiedDate":1531338223.888,"Name":"/config-v0.0.1/app/PRODIGY_WEB_URL","Type":"String","Value":"***************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/SPOTINST_TOKEN","LastModifiedDate":1540832634.082,"Name":"/config-v0.0.1/app/SPOTINST_TOKEN","Type":"SecureString","Value":"****************************************************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:34 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAV9nMHMdYB80bKsfiut+5+nBT5VTO2Rkv9ABY6BXYMDwAAAAAF1S9oqQdkQ+1ZI+QUN1i/B3RYNP87npXOU8O89ioZyggLOQydHDMcdsDRMGUalSEZ+u513y+rfsgb5HaXRCp4KPX3WQQVTQBnl7ZGIpSqDYiQzfXIW1VccA/2asg/n2BhmTv8d0LlL6dncrnXfJcSO3nTqAdnozKeZfgguyBSDRvGKpgUBGitmhCW2BR5gP6tK0kXyVFMrspT//DC0reVDk4mXsbj51pXjuV22fRJV56XTn98MfVR2VsXRFEvlO5TwM6ooXpvwL6EGMzFLeLTNxZanuSBLthCQITfJzj+I5p7HWLtVKJXY1QBiDUS3p/uG8lmsvm3sWEET8Xa8mM30iO09q2OcZHgGjqWsWtCQ2iuXO48or8RJq/a1NflJYRg9GnQlfyUuozwC/8N37zNo9Z1E4f6LryMyF6UxXEfpCzpoB+0h9Kh+KODvoHkMEv65TRmRc8wMBSRKDmffnxm7QTooOSdWIv6SNg+LlvoJbpmVNKBQhDOB+u6q+2RXQ+2W71rDPmYh0NkVL4rDVZM0w1TOmvQ4udu1kIetpq6mu7u/vmrfXe2YhbFOdsxfUPGGHvJZm5AOEGSujf1bdD3gdCkDT7oUu9XDJeEn7ZV1mGgyPLpJY1iS4IXZBYkT/gf2vcM+iIPNU6lTMSJ0Fd2inEyT/","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174234Z
+      X-Amz-Content-Sha256:
+      - 3165ceaaf82b84ea1e5c059f1cc5e7f19f1a7c31f5bbc02adbee19c81aa0d49c
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=8f574c55a6781bb0e7c3d2998b4f9e0773cd724980fee3606657b6c716f4640e
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - ea4a5125-43ca-4de2-b811-364441deaa66
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3693
+      Date:
+      - Tue, 13 Aug 2019 17:42:34 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAXEQYHsTw//pE7WDER8rEde1uy0xoFEgVIYTAiFJ9ih5AAAAAF1S9oo4tPwnzrdfgYCMuAXi5dwya0+VU/eMgHKaiiF7/9oUM9bEJgFEmiewC8/yQxJNtkXcJoq0hNeMX1vvTwGmuTCqU9RkAL38/TXyIkbf9KIeLsbJLKcHvok2EZ5Ln//3PDCaYctYawlzRdZLdXuYKu1ERvMnVxywGpT6i395/jyjSJgOhe9hy9fOtwGnP/CurKdI6aoIHW++Kt7nnF/N6mbLpKmsj5JBsNWHvP8n5s9XfXjr4PftzKzKsLRKTY/mTDErMwkcvFDZTuwMFasUgCfop0LpEM0n7a4bYg3SezCX76z45/AtpPs7X4NMzP7uXoCE3jvYBYZwryKER8BmB8cUhYNOzpMYyy3ffIo0wai6YzOrqKJLCH96A+LRku5Ti57Bf/zsm+UU7LOsa0Hs9kUFwDHNtzGhvIzhxZ3ckS4XJSjjdQ200h0jeLmwZoRygJh/srr952WjqY2SP6x2kAm/9YOPlz+aSz8b+DgHhOMWuh301gbfLkTF9xoVhKyHp++jIs+qRJumKaftFWfFRzHHiZKCnGJRpKOGOrQfez1r3hbOzfMyxv/UA2YTrwqGQ81R/ddwhEgHu7OOvAZWFJT2bPfnwV7YDKMZSUkpBuTW1r4AW3KJoc29oOWT8JG5niAKxC+KlJ2O/u06n/ijMQJj","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_WRITE_HOST","LastModifiedDate":1534946480.638,"Name":"/config-v0.0.1/app/DB_EDUCATION_WRITE_HOST","Type":"String","Value":"*****************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_GAME_PORT","LastModifiedDate":1534261903.56,"Name":"/config-v0.0.1/app/DB_GAME_PORT","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_GAME_WRITE_HOST","LastModifiedDate":1534261695.966,"Name":"/config-v0.0.1/app/DB_GAME_WRITE_HOST","Type":"String","Value":"*****************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_INTERNAL_TOOLS_CONN_STR","LastModifiedDate":1542665009.376,"Name":"/config-v0.0.1/app/DB_INTERNAL_TOOLS_CONN_STR","Type":"String","Value":"************************************************************************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_POOL_MIN","LastModifiedDate":1534449961.226,"Name":"/config-v0.0.1/app/DB_STATS_POOL_MIN","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_WRITE_HOST","LastModifiedDate":1532100232.259,"Name":"/config-v0.0.1/app/DB_STATS_WRITE_HOST","Type":"String","Value":"******************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_WRITE_HOST","LastModifiedDate":1534946082.978,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_WRITE_HOST","Type":"String","Value":"**********************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_WRITE_NAME","LastModifiedDate":1534946083.747,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_WRITE_NAME","Type":"String","Value":"***********************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JWT_ALGORITHM","LastModifiedDate":1550773194.361,"Name":"/config-v0.0.1/app/JWT_ALGORITHM","Type":"String","Value":"*****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JWT_PUBLIC_KEY_CURRENT","LastModifiedDate":1549379477.132,"Name":"/config-v0.0.1/app/JWT_PUBLIC_KEY_CURRENT","Type":"SecureString","Value":"**************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n********\n************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:34 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAXEQYHsTw//pE7WDER8rEde1uy0xoFEgVIYTAiFJ9ih5AAAAAF1S9oo4tPwnzrdfgYCMuAXi5dwya0+VU/eMgHKaiiF7/9oUM9bEJgFEmiewC8/yQxJNtkXcJoq0hNeMX1vvTwGmuTCqU9RkAL38/TXyIkbf9KIeLsbJLKcHvok2EZ5Ln//3PDCaYctYawlzRdZLdXuYKu1ERvMnVxywGpT6i395/jyjSJgOhe9hy9fOtwGnP/CurKdI6aoIHW++Kt7nnF/N6mbLpKmsj5JBsNWHvP8n5s9XfXjr4PftzKzKsLRKTY/mTDErMwkcvFDZTuwMFasUgCfop0LpEM0n7a4bYg3SezCX76z45/AtpPs7X4NMzP7uXoCE3jvYBYZwryKER8BmB8cUhYNOzpMYyy3ffIo0wai6YzOrqKJLCH96A+LRku5Ti57Bf/zsm+UU7LOsa0Hs9kUFwDHNtzGhvIzhxZ3ckS4XJSjjdQ200h0jeLmwZoRygJh/srr952WjqY2SP6x2kAm/9YOPlz+aSz8b+DgHhOMWuh301gbfLkTF9xoVhKyHp++jIs+qRJumKaftFWfFRzHHiZKCnGJRpKOGOrQfez1r3hbOzfMyxv/UA2YTrwqGQ81R/ddwhEgHu7OOvAZWFJT2bPfnwV7YDKMZSUkpBuTW1r4AW3KJoc29oOWT8JG5niAKxC+KlJ2O/u06n/ijMQJj","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174234Z
+      X-Amz-Content-Sha256:
+      - 8b6b88f3611994083cabf16880a432aaa09522df7c032b059ec619f20c45b5f7
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=16825af16c91d834f6395e4e00b6c1f1cf076ecfb3bd1b05b9234f841b18b9b2
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - 4eb98584-0597-41ee-9530-a1b61d7c2aea
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 3114
+      Date:
+      - Tue, 13 Aug 2019 17:42:33 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAU9pSZmCGoIjmWFmSUkjIC8iSlLKQh2oUXQhW2dzA3j7AAAAAF1S9ooQjnptPvkv0d2E6+JL3Pkv2WtBBMPXzzuxOE3NcyUKPVyBbmSePZaID/qUjc5SyYm9HV95jQNfJ16078eo3l0+KNoaGk5Nw1syd9o1WYUJkbspKVd6ZmhGzv+DiVzxlD6swCy/3LkPOEkTNBaEBurmPWf0wg+oAI71vfgsEwNkGNwN4CILcyfbtpaksk7eLFbqQAqUc8LCrMOlwN03rY7dmO1zQ4rF6TKesNLjdtgQgb8TwMQrqgnqn5JLz4YTt/yAYKLYD1qFEFmpCa85SShfX6/5rKjeIb5/hKiRp+3V1SwrZQekD+Vyg++PRYKz9tPSGk3SzZ1mqjEqQaFTuIj4BGzCsji9vsWgzME9qbC7VuELnL7sA996ibaVAAD3asaHSvaZfQg+4r/aTLHLnWne9hAhkk6pU+gbAdd3KYbCGpfDfAoLQK4lvjnaOcKdAkzqoInZsT9MBs4eS1Y6rWk7h62vLxbymzG+zh4QHMwxEUezWW11tzbzmNHNSAcqzRki8bIn/c8zMV26lshuqtzfzniPXO3bGbKk2ZWnAXzlPsA//6Xcvo5qSv3wmRb/VKFE5Q59tqFeIrTjnFmsgsEi4Fccg9RXo149ahcqmJV6xKvGFZ5Rq4sXGBjtQjwFlKtWGB+H0/BEQ81NnEi0wpx/GcMbH3LA/+LVPC2qnpejQg==","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/APM_SAMPLE_RATE","LastModifiedDate":1564068491.396,"Name":"/config-v0.0.1/app/APM_SAMPLE_RATE","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/AWS_REGION","LastModifiedDate":1529673136.725,"Name":"/config-v0.0.1/app/AWS_REGION","Type":"String","Value":"*********","Version":3},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_PWD","LastModifiedDate":1534946485.409,"Name":"/config-v0.0.1/app/DB_EDUCATION_PWD","Type":"SecureString","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_WRITE_NAME","LastModifiedDate":1534946481.418,"Name":"/config-v0.0.1/app/DB_EDUCATION_WRITE_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_POOL_MAX","LastModifiedDate":1534945592.71,"Name":"/config-v0.0.1/app/DB_NEWS_POOL_MAX","Type":"String","Value":"*","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_WRITE_NAME","LastModifiedDate":1534945590.347,"Name":"/config-v0.0.1/app/DB_NEWS_WRITE_NAME","Type":"String","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DYNAMO_STUDENT_PROGRESS_TABLE","LastModifiedDate":1543004758.46,"Name":"/config-v0.0.1/app/DYNAMO_STUDENT_PROGRESS_TABLE","Type":"String","Value":"********************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_WEB","LastModifiedDate":1564592076.409,"Name":"/config-v0.0.1/app/GOOGLE_OAUTH_CLIENT_IDS_WEB","Type":"String","Value":"************************************************************************","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/MATCHMAKING_REDIS_HOST","LastModifiedDate":1545166587.058,"Name":"/config-v0.0.1/app/MATCHMAKING_REDIS_HOST","Type":"String","Value":"*********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/SPARKPOST_KEY","LastModifiedDate":1542137961.363,"Name":"/config-v0.0.1/app/SPARKPOST_KEY","Type":"String","Value":"****************************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:34 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAU9pSZmCGoIjmWFmSUkjIC8iSlLKQh2oUXQhW2dzA3j7AAAAAF1S9ooQjnptPvkv0d2E6+JL3Pkv2WtBBMPXzzuxOE3NcyUKPVyBbmSePZaID/qUjc5SyYm9HV95jQNfJ16078eo3l0+KNoaGk5Nw1syd9o1WYUJkbspKVd6ZmhGzv+DiVzxlD6swCy/3LkPOEkTNBaEBurmPWf0wg+oAI71vfgsEwNkGNwN4CILcyfbtpaksk7eLFbqQAqUc8LCrMOlwN03rY7dmO1zQ4rF6TKesNLjdtgQgb8TwMQrqgnqn5JLz4YTt/yAYKLYD1qFEFmpCa85SShfX6/5rKjeIb5/hKiRp+3V1SwrZQekD+Vyg++PRYKz9tPSGk3SzZ1mqjEqQaFTuIj4BGzCsji9vsWgzME9qbC7VuELnL7sA996ibaVAAD3asaHSvaZfQg+4r/aTLHLnWne9hAhkk6pU+gbAdd3KYbCGpfDfAoLQK4lvjnaOcKdAkzqoInZsT9MBs4eS1Y6rWk7h62vLxbymzG+zh4QHMwxEUezWW11tzbzmNHNSAcqzRki8bIn/c8zMV26lshuqtzfzniPXO3bGbKk2ZWnAXzlPsA//6Xcvo5qSv3wmRb/VKFE5Q59tqFeIrTjnFmsgsEi4Fccg9RXo149ahcqmJV6xKvGFZ5Rq4sXGBjtQjwFlKtWGB+H0/BEQ81NnEi0wpx/GcMbH3LA/+LVPC2qnpejQg==","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174234Z
+      X-Amz-Content-Sha256:
+      - 31c01bf52f89c367dae9b4eaead780ad970c67639dc2fadbe9043d937fd9e63e
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=d4714b19a50b7f85277d82994df3665549b157a3767dc0d617b240130fb28c86
+      Content-Length:
+      - '810'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - e10fefdb-43c4-479c-8b2d-477743db9276
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 4816
+      Date:
+      - Tue, 13 Aug 2019 17:42:34 GMT
+    body:
+      encoding: UTF-8
+      string: '{"NextToken":"AAEAAbgyWPwc2ozSvSd0HUjPz8EK9Zqv0Enlmm9Jw7G/qvTUAAAAAF1S9orS/gEY63NBq/QKJYStwFrymOsyw1tPWbMeu/bwczEqjBzA8+SbQJVHTxEi8b8LUoH4yov+O9lmb7ZicGxiz8c2iDGyW3EkxBs/wK3kDQHjPyyWUmAZwDbmwBVDx/ghDYXlwLz7RNxgaPLYaE4AvlulCHpUJH0FaY5/4EGAabzfFkSu1PjBdvO695MbD6rQHeThPN62x1uWhm70nzmp3fXP0iFkapiy/MJGt5gWUvE5BztdZ/bqg0mICXxQry2xpRjUHj0cUrOXo8lw5XuFhyaNONxFBtAHDbatj2Rwq9z7NXCUH1E9n1xd8CNupvu7Lyg9K5IA2e354TsetKVV58DPAJl455q5ZAVo38o0MxXUuioEH28732wyriDqYxanaO+FwuBNKjd2h7YVRfeFzRAkM6CvhKMkET8TGYw2cSYDVEk7NES0UMhgzrDShXuUy0vzbCnq6Mc92gEpw/XixYvXdDxQ1Gq/rd+8Wk2gmYb37d9on9FXx3RaAX1DIlVo9aBupfWPCBRODQ4Oy6z4obxRb+QNbvipZfkhUHnJERDEcyKGMJVNY2wnWD277i3qzGd4fxw3i/xuy5PvTxLR0KWyjahd1RLCUqh/B9aG/nv4rDrV2Wu7L9FZutqUaK572SxD39DeB2CEUg8Q5eNLngae","Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_PORT","LastModifiedDate":1534946482.195,"Name":"/config-v0.0.1/app/DB_EDUCATION_PORT","Type":"String","Value":"****","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_READ_HOST","LastModifiedDate":1534946479.085,"Name":"/config-v0.0.1/app/DB_EDUCATION_READ_HOST","Type":"String","Value":"*****************************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_NEWS_USER","LastModifiedDate":1534945593.64,"Name":"/config-v0.0.1/app/DB_NEWS_USER","Type":"SecureString","Value":"************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_MIGRATE_PWD","LastModifiedDate":1534967626.191,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_MIGRATE_PWD","Type":"SecureString","Value":"***************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_MIGRATE_USER","LastModifiedDate":1534946088.491,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_MIGRATE_USER","Type":"String","Value":"***************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/ENV","LastModifiedDate":1529673137.539,"Name":"/config-v0.0.1/app/ENV","Type":"String","Value":"***","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JAZZHR_API_KEY","LastModifiedDate":1534878481.822,"Name":"/config-v0.0.1/app/JAZZHR_API_KEY","Type":"SecureString","Value":"********************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/JWT_PRIVATE_KEY_CURRENT","LastModifiedDate":1549379513.02,"Name":"/config-v0.0.1/app/JWT_PRIVATE_KEY_CURRENT","Type":"SecureString","Value":"*******************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************************\n****************************************************\n*****************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/SENDWITHUS_KEY","LastModifiedDate":1529695439.186,"Name":"/config-v0.0.1/app/SENDWITHUS_KEY","Type":"String","Value":"*********************************************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/VOUCHER_ADMIN_PWD","LastModifiedDate":1536682969.949,"Name":"/config-v0.0.1/app/VOUCHER_ADMIN_PWD","Type":"SecureString","Value":"****************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:34 GMT
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/app","NextToken":"AAEAAbgyWPwc2ozSvSd0HUjPz8EK9Zqv0Enlmm9Jw7G/qvTUAAAAAF1S9orS/gEY63NBq/QKJYStwFrymOsyw1tPWbMeu/bwczEqjBzA8+SbQJVHTxEi8b8LUoH4yov+O9lmb7ZicGxiz8c2iDGyW3EkxBs/wK3kDQHjPyyWUmAZwDbmwBVDx/ghDYXlwLz7RNxgaPLYaE4AvlulCHpUJH0FaY5/4EGAabzfFkSu1PjBdvO695MbD6rQHeThPN62x1uWhm70nzmp3fXP0iFkapiy/MJGt5gWUvE5BztdZ/bqg0mICXxQry2xpRjUHj0cUrOXo8lw5XuFhyaNONxFBtAHDbatj2Rwq9z7NXCUH1E9n1xd8CNupvu7Lyg9K5IA2e354TsetKVV58DPAJl455q5ZAVo38o0MxXUuioEH28732wyriDqYxanaO+FwuBNKjd2h7YVRfeFzRAkM6CvhKMkET8TGYw2cSYDVEk7NES0UMhgzrDShXuUy0vzbCnq6Mc92gEpw/XixYvXdDxQ1Gq/rd+8Wk2gmYb37d9on9FXx3RaAX1DIlVo9aBupfWPCBRODQ4Oy6z4obxRb+QNbvipZfkhUHnJERDEcyKGMJVNY2wnWD277i3qzGd4fxw3i/xuy5PvTxLR0KWyjahd1RLCUqh/B9aG/nv4rDrV2Wu7L9FZutqUaK572SxD39DeB2CEUg8Q5eNLngae","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174234Z
+      X-Amz-Content-Sha256:
+      - a4c4ef5ecb4fac692a60f0df5f0332f9e7b4dbd82e5672c25eedf5f54d97becf
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=7eb8c4ad492705ff9ccb54069ecf67c7b98f58053d90ba4203626824769abcf3
+      Content-Length:
+      - '786'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - c6d1bfce-9c66-4b1e-94e7-7378dbc058ed
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 1819
+      Date:
+      - Tue, 13 Aug 2019 17:42:34 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/AWS_ACCOUNT","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/app/AWS_ACCOUNT","Type":"String","Value":"************","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_READ_NAME","LastModifiedDate":1534946479.864,"Name":"/config-v0.0.1/app/DB_EDUCATION_READ_NAME","Type":"String","Value":"***","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_EDUCATION_USER","LastModifiedDate":1534946484.598,"Name":"/config-v0.0.1/app/DB_EDUCATION_USER","Type":"SecureString","Value":"********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_INTERNAL_TOOLS_POOL_SIZE","LastModifiedDate":1542665063.399,"Name":"/config-v0.0.1/app/DB_INTERNAL_TOOLS_POOL_SIZE","Type":"String","Value":"**","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_PWD","LastModifiedDate":1534967627.035,"Name":"/config-v0.0.1/app/DB_STATS_PWD","Type":"SecureString","Value":"*********","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STATS_QUERY_TIMEOUT","LastModifiedDate":1557941712.62,"Name":"/config-v0.0.1/app/DB_STATS_QUERY_TIMEOUT","Type":"String","Value":"*****","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/DB_STUDENT_PROGRESSION_PORT","LastModifiedDate":1534946084.544,"Name":"/config-v0.0.1/app/DB_STUDENT_PROGRESSION_PORT","Type":"String","Value":"****","Version":2},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/app/SPARKPOST_ENDPOINT","LastModifiedDate":1542138029.941,"Name":"/config-v0.0.1/app/SPARKPOST_ENDPOINT","Type":"String","Value":"*****************************","Version":1}]}'
+    http_version:
+  recorded_at: Tue, 13 Aug 2019 17:42:35 GMT
+recorded_with: VCR 5.0.0

@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://ssm.us-east-1.amazonaws.com/
+    body:
+      encoding: UTF-8
+      string: '{"Path":"/config-v0.0.1/api/identity-service","WithDecryption":true}'
+    headers:
+      Content-Type:
+      - application/x-amz-json-1.1
+      Accept-Encoding:
+      - ''
+      User-Agent:
+      - aws-sdk-ruby3/3.62.0 ruby/2.6.2 x86_64-darwin18 aws-sdk-ssm/1.54.0
+      X-Amz-Target:
+      - AmazonSSM.GetParametersByPath
+      Host:
+      - ssm.us-east-1.amazonaws.com
+      X-Amz-Date:
+      - 20190813T174230Z
+      X-Amz-Content-Sha256:
+      - 04b3d3dec1e91583e184b8a2afa65d8963cd206374639748f1e9ff0be114713f
+      Authorization:
+      - AWS4-HMAC-SHA256 Credential=AKIAI47XJQPEWCOGKLLQ/20190813/us-east-1/ssm/aws4_request,
+        SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-target,
+        Signature=cb089717e3d4f96bcefc76be05cd1b6c989e2086a92626d58511fba7dc2b398b
+      Content-Length:
+      - '68'
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Amzn-Requestid:
+      - b25f9126-4081-4d9d-b322-29219c59ea92
+      Content-Type:
+      - application/x-amz-json-1.1
+      Content-Length:
+      - 1451
+      Date:
+      - Tue, 13 Aug 2019 17:42:30 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Parameters":[{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/NULL_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/NULL_VALUE","Type":"String","Value":"null","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/TRUE_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/TRUE_VALUE","Type":"String","Value":"true","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/NUMBER_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/NUMBER_VALUE","Type":"String","Value":"123","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/STRING_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/STRING_VALUE","Type":"String","Value":"\"foobar\"","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/ARRAY_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/ARRAY_VALUE","Type":"String","Value":"[1,2,3]","Version":1},{"ARN":"arn:aws:ssm:us-east-1:719845697152:parameter/config-v0.0.1/api/identity-service/HASH_VALUE","LastModifiedDate":1533654082.824,"Name":"/config-v0.0.1/api/identity-service/HASH_VALUE","Type":"String","Value":"{\"foo\":\"bar\"}","Version":1}]}'
+    http_version: 
+  recorded_at: Tue, 13 Aug 2019 17:42:30 GMT
+recorded_with: VCR 5.0.0

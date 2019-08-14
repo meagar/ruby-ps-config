@@ -3,7 +3,6 @@
 require 'ps_config/errors'
 require 'ps_config/version'
 require 'ps_config/config'
-require 'ps_config/thor_tasks'
 require 'ps_config/aws_parameter_store'
 require 'ps_config/loader'
 

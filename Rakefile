@@ -10,3 +10,5 @@ Rake::TestTask.new(:test) do |t|
 end
 
 task default: :test
+
+load 'ps_config/rake/config.rake'
